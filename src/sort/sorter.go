@@ -2,6 +2,7 @@ package main
 
 import (
 	"../algorithm/bubbleSort"
+	"../algorithm/cocktailSort"
 	"bufio"
 	"flag"
 	"fmt"
@@ -26,12 +27,21 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println("Read values:", values)
+		fmt.Println("start sort :", values)
 	}
 
-	bubbleSort.BubbleSort(values)
+	fmt.Println("sort algorithm", *algorithm)
+
+	switch *algorithm {
+	case "bubble":
+		bubbleSort.BubbleSort(values)
+	case "cocktail":
+		cocktailSort.CocktailSort(values)
+	}
 
 	writeValues(values, *outfile)
+
+	fmt.Println("end sort :", values)
 
 }
 
