@@ -3,6 +3,7 @@ package main
 import (
 	"../algorithm/bubbleSort"
 	"../algorithm/cocktailSort"
+	"../algorithm/quickSort"
 	"bufio"
 	"flag"
 	"fmt"
@@ -37,6 +38,8 @@ func main() {
 		bubbleSort.BubbleSort(values)
 	case "cocktail":
 		cocktailSort.CocktailSort(values)
+	case "quick":
+		quickSort.QuickSort(values)
 	}
 
 	writeValues(values, *outfile)
