@@ -9,20 +9,20 @@ import (
 
 //栈
 type Stack struct {
-	sync.RWMutex
+	lock *sync.RWMutex
 	elementData []*Node
 	elementCount int
 	capacityIncrement int
 }
 
 func NewStack() *Stack {
-	return &Stack{}
+	return &Stack{lock:new(sync.RWMutex)}
 }
 
 func (stack *Stack) Push(object *Node) error {
 
-	stack.Lock()
-	defer stack.Unlock()
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
 
 	if object == nil {
 		 return errors.New("can not add a nil interface{}")
@@ -37,8 +37,8 @@ func (stack *Stack) Push(object *Node) error {
 
 func (stack *Stack) Pop()(object *Node) {
 
-	stack.Lock()
-	defer stack.Unlock()
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
 
 	if stack.elementCount == 0 {
 		return nil
@@ -52,8 +52,8 @@ func (stack *Stack) Pop()(object *Node) {
 }
 
 func (stack *Stack) Peek()(object *Node) {
-	stack.Lock()
-	defer stack.Unlock()
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
 
 	if stack.elementCount == 0{
 		return nil
