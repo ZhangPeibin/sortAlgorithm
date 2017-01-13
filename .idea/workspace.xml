@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc0205e-3eb9-4042-a348-514921b94896" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/collections/stack.go" afterPath="$PROJECT_DIR$/src/algorithm/collections/stack.go" />
+    <list default="true" id="c6809c2b-24aa-443e-b7e6-e8f6c3047e3d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__sortAlgorithm_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/collections/queue_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sortAlgorithm.iml" afterPath="$PROJECT_DIR$/sortAlgorithm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/collections/queue.go" afterPath="$PROJECT_DIR$/src/algorithm/collections/queue.go" />
     </list>
     <ignored path="sortAlgorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +28,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stack.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stack.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="825">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="e#21#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/collections/queue.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="e#21#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/builtin/builtin.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/collections/collection.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="e#21#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +91,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
@@ -53,16 +107,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/insertSort/insertSort.go" />
-        <option value="$PROJECT_DIR$/src/algorithm/insertSort/insertSort_test.go" />
+        <option value="$PROJECT_DIR$/src/test.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/collections/collection.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/collections/stack_test.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/collections/quene.go" />
         <option value="$PROJECT_DIR$/src/algorithm/collections/stack.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/collections/queue.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/collections/queue_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="307" />
+    <option name="y" value="91" />
+    <option name="width" value="934" />
+    <option name="height" value="649" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -71,7 +130,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -89,9 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,34 +222,53 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider$1" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="configurable.Global.libraries.is.expanded" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go_blog" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GO_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.insertSort_test.go">
-    <configuration default="false" name="TestInsertSort in insertSort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.TestNewQueue in queue_test.go">
+    <configuration default="false" name="go run test.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="sortAlgorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestStack in stack_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="sortAlgorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algorithm/insertSort" />
-      <pattern value="^TestInsertSort$" />
+      <package value="algorithm/collections" />
+      <pattern value="^TestStack$" />
       <method />
     </configuration>
-    <configuration default="false" name="insertSort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="stack_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="sortAlgorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/algorithm/insertSort/insertSort_test.go" />
+      <filePath value="$PROJECT_DIR$/src/algorithm/collections/stack_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestNewQueue in queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="sortAlgorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algorithm/collections" />
+      <pattern value="^TestNewQueue$" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -460,14 +535,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestInsertSort in insertSort_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.insertSort_test.go" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestStack in stack_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.stack_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestNewQueue in queue_test.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.insertSort_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestInsertSort in insertSort_test.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestNewQueue in queue_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.stack_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestStack in stack_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -476,27 +555,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6fc0205e-3eb9-4042-a348-514921b94896" name="Default" comment="" />
-      <created>1483842749243</created>
+      <changelist id="c6809c2b-24aa-443e-b7e6-e8f6c3047e3d" name="Default" comment="" />
+      <created>1484058607932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1483842749243</updated>
+      <updated>1484058607932</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改stack">
+      <created>1484064699926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484064699926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改stack">
+      <created>1484236848059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484236848059</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改stack">
+      <created>1484237066313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484237066313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestInsertSort_in_insertSort_test_go - 2017.01.10 at 16h 58m 22s.xml">
-      <configuration name="TestInsertSort in insertSort_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 37m 45s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="insertSort_test_go - 2017.01.10 at 17h 07m 20s.xml">
-      <configuration name="insertSort_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 37m 58s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="insertSort_test_go - 2017.01.10 at 17h 08m 16s.xml">
-      <configuration name="insertSort_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 39m 03s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 39m 37s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 40m 15s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 41m 08s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 41m 20s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 41m 32s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 41m 42s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNewQueue_in_queue_test_go - 2017.01.13 at 23h 41m 47s.xml">
+      <configuration name="TestNewQueue in queue_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1936" height="1056" extended-state="0" />
+    <frame x="307" y="91" width="934" height="649" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,12 +627,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3195691" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06822262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28587443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -523,6 +645,31 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -535,97 +682,139 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改stack" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/quickSort/quickSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/insertSort/insertSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/insertSort/insertSort_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/cocktailSort/cocktailSort.go">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/sorter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-933">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/cocktailSort/cocktailSort_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/insertSort/insertSort_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="e#20#48#0" expanded="false" />
+            <element signature="e#21#49#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/insertSort/insertSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/quickSort/quickSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/sort/sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/collection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/quene.go" />
+    <entry file="file:///usr/local/go/src/sync/rwmutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/collection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#21#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/stack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/queue_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/collections/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#21#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,7 +858,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Go 1.7.3</last-edited>
+          <last-edited>Go 1.5.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -686,7 +875,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -694,7 +882,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Go 1.7.3</last-edited>
+          <last-edited>Go 1.5.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

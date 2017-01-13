@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;sortAlgorithm&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../go_blog/src/static" />
+      <root url="file://$PROJECT_DIR$/../go_blog/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../go_blog/src/blog" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../go_blog/src/static" />
+      <root url="file://$PROJECT_DIR$/../go_blog/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../go_blog/src/blog" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
