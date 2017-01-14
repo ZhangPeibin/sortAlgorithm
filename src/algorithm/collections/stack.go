@@ -1,33 +1,32 @@
 package collections
 
-import "errors"
+import (
+	"errors"
+	"sync"
+)
+
 
 
 
 type Stack struct {
-	elementData []interface{}
+	lock *sync.RWMutex
+	elementData []*Node
 	elementCount int
 	capacityIncrement int
 }
 
-func Stack() *Stack {
-	return StackCapac(5)
+func NewStack() *Stack {
+	return &Stack{lock:new(sync.RWMutex)}
 }
 
-func StackCapac(capacityIncrement int) *Stack {
-	return &Stack{
-		elementCount:0,
-		elementData:make([]interface{},capacityIncrement),
-		capacityIncrement:capacityIncrement,
-	}
-}
+func (stack *Stack) Push(object *Node) error {
 
-func (stack *Stack) Push(object interface{}) error {
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
+
 	if object == nil {
 		 return errors.New("can not add a nil interface{}")
 	}
-
-	stack.resizeIfNeed()
 
 	stack.elementData = append(stack.elementData,object)
 
@@ -36,20 +35,35 @@ func (stack *Stack) Push(object interface{}) error {
 	return nil
 }
 
-func (stack *Stack) Pop()(object interface{}) {
+func (stack *Stack) Pop()(object *Node) {
+
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
+
+	if stack.elementCount == 0 {
+		return nil
+	}
 
 	object = stack.elementData[stack.elementCount-1]
 
 	stack.elementData = stack.elementData[:stack.elementCount-1]
+	stack.elementCount--
+	return
+}
+
+func (stack *Stack) Peek()(object *Node) {
+	stack.lock.Lock()
+	defer stack.lock.Unlock()
+
+	if stack.elementCount == 0{
+		return nil
+	}
+
+	object = stack.elementData[stack.elementCount-1]
 
 	return
 }
 
-
-func (stack *Stack) resizeIfNeed() {
-	if ( cap(stack.elementData) == stack.elementCount+2) {
-		t := make([]interface{},len(stack.elementData),cap(stack.elementData)+stack.capacityIncrement*2+1)
-		copy(t,stack.elementData)
-		stack.elementData = t
-	}
+func (stack *Stack) Len()int{
+	return stack.elementCount
 }
