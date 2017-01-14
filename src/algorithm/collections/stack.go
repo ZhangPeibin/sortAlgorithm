@@ -3,7 +3,7 @@ package collections
 import "errors"
 
 
-//栈
+
 type Stack struct {
 	elementData []interface{}
 	elementCount int
@@ -11,7 +11,7 @@ type Stack struct {
 }
 
 func Stack() *Stack {
-	return StackCapac(10)
+	return StackCapac(5)
 }
 
 func StackCapac(capacityIncrement int) *Stack {
